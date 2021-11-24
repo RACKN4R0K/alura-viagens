@@ -1,5 +1,5 @@
 <?php
-
+require_once "ValidadosCPF.php";
 class Cliente
 {
 
@@ -26,9 +26,13 @@ class Cliente
     $cidade,
     $uf
   ) {
+
+    $validadorCPF= new ValidadorCPF();
+
     if(!$this->cepValido($cep)) throw new Exception("Cep no formato inválido");
     if(!$this->telefoneInvalido($telefone)) throw new Exception("Telefone inválido");
     if(!$this->emailInvalido($email)) throw new exception ("Email no formato inválido");
+    if(!$validadorCPF->ehvalido($cpf_cnpj)) throw new exception("CPF inválido");
 
     $this->nome = $nome;
     $this->cpf_cnpj = $cpf_cnpj;
