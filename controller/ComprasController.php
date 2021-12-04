@@ -50,7 +50,7 @@ if ($_POST) {
     $preco
     );
   }catch(Exception $error){
-    echo "<script>alert('" . $error --> getMessage() . "')</script>)";
+    echo "<script>alert('" . $error ->getmessage() . "')</script>)";
     echo "<script> history.back() <\script>";
 
   }

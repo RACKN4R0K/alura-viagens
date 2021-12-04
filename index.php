@@ -8,8 +8,8 @@
                 <div class="row">
                     <div class="info2">
                         <div class="col-sm-6">
-                            <h2>Alura Viagens</h2>
-                            <h3>Encontre passagens aéreas com os melhores preços na Alura Viagens</h3>
+                            <h2>PontoCom Viagens</h2>
+                            <h3>Encontre passagens aéreas com os melhores preços na PontoCom Viagens</h3>
                         </div>
                     </div>
                     <div class="col-sm-6">

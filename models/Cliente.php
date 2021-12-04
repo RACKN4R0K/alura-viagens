@@ -1,5 +1,5 @@
 <?php
-require_once "ValidadosCPF.php";
+require_once "validadorCPF.php";
 class Cliente
 {
 
